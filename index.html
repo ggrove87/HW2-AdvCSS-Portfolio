@@ -30,11 +30,16 @@
             </ul>
         </div>
     </header>
+    <!-- href connecting website to background image in the css file -->
+    <a href="https://ggrove87.github.io/prework-about-me/" target="_blank">
+        <div id="geneGrove"></div>
+    </a>
 
-    <a href="https://ggrove87.github.io/prework-about-me/" target="_blank"><div id="geneGrove"></div></a>
+    <!-- contains the full content of the page below the header -->
+    <section class="content">
 
-    <div class="content">
-        <div id="about" class="page-sections">
+        <!-- defines the sections of the page  dividing them with individual ids -->
+        <section id="about" class="page-sections">
             <h2>About Gene</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem suscipit dicta aliquid, recusandae nisi
@@ -52,8 +57,8 @@
                 Consequatur velit nam magni repellat atque nemo, debitis rerum eos quod eaque explicabo quis doloremque
                 laboriosam culpa deserunt natus autem voluptatem neque at modi inventore. Minima quis enim totam
                 aperiam.
-        </div>
-        <div id="projects" class="page-sections">
+        </section>
+        <section id="projects" class="page-sections">
 
             <h2>Projects</h2>
             <p>
@@ -72,8 +77,8 @@
                 illum saepe, at ipsum corporis, qui fugiat omnis accusamus vel molestiae alias sequi ad? Suscipit,
                 corrupti obcaecati.
             </p>
-        </div>
-        <div id="contact" class="page-sections">
+        </section>
+        <section id="contact" class="page-sections">
             <h2>Contact Information</h2>
             <p>
             <ul>
@@ -88,34 +93,41 @@
                 </li>
             </ul>
             </p>
-        </div>
+        </section>
+
+        <!-- creats a container for the images so flex can be utilized -->
         <section id="projects-container">
             <h2>Images of Gene's Applications</h2>
+
+            <!-- isolating image of project 1 in order to modify it seperately from the other images -->
             <div id="project1" class="myProjects">
                 <h2 class="card-header">Cool Website</h2>
                 <a href="https://www.google.com/" target="_blank"><img id="coolWebsite" src="./CoolWebsite.jpg"
                         alt="Project_1"></a>
-
             </div>
+
+            <!-- defines card-header within h2 to isolate the location of h2 within the display and myProjects to do the same to all images at once -->
             <div class="myProjects">
                 <h2 class="card-header">Data Mining</h2>
                 <a href="https://en.wikipedia.org/wiki/Data_mining#:~:text=From%20Wikipedia%2C%20the%20free%20encyclopedia.%20Data%20mining%20is,information%20into%20a%20comprehensible%20structure%20for%20further%20use."
                     target="_blank"><img class="project-photos" src="./CoolCave.jpg" alt="Cool_Cave"></a>
-
             </div>
+
             <div class="myProjects">
                 <h2 class="card-header">I want to talk to Sampson!</h2>
-                <a href="https://www.youtube.com/watch?v=lou1n1AhlMc" target="_blank"><img class="project-photos" src="./Sampson.jpg"
-                        alt="Sampson"></a>
+                <a href="https://www.youtube.com/watch?v=lou1n1AhlMc" target="_blank"><img class="project-photos"
+                        src="./Sampson.jpg" alt="Sampson"></a>
 
             </div>
             <div class="myProjects">
                 <h2 class="card-header">Food Blog</h2>
-                <a href="https://iamafoodblog.com/" target="_blank"><img class="project-photos" src="./GoodFood.jpg" alt="Good_Food"></a>
+                <a href="https://iamafoodblog.com/" target="_blank"><img class="project-photos" src="./GoodFood.jpg"
+                        alt="Good_Food"></a>
+            </div>
         </section>
-    </div>
-    </div>
+    </section>
 
+    <!-- Shows the copyright information & site creator -->
     <footer>
         <h2>Made by Gene Grove</h2>
         <p>
